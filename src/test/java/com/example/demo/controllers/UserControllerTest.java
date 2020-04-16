@@ -72,6 +72,7 @@ public class UserControllerTest {
         ResponseEntity<User> response = userController.createUser(request);
         assertNotNull(response);
         assertEquals(400, response.getStatusCodeValue());
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
     }
 
     @Test
