@@ -2,6 +2,8 @@ package com.example.demo.controllers;
 
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +24,8 @@ import com.example.demo.model.requests.CreateUserRequest;
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
+
+	private static final Logger log = LoggerFactory.getLogger(UserController.class);
 	
 	@Autowired
 	private UserRepository userRepository;
@@ -35,8 +39,6 @@ public class UserController {
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
 		return ResponseEntity.of(userRepository.findById(id));
-//		User user = userRepository.findById(id).get();
-//		return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
 	}
 	
 	@GetMapping("/{username}")
@@ -47,6 +49,8 @@ public class UserController {
 	
 	@PostMapping("/create")
 	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
+		log.info("Create user POST request");
+
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
 		Cart cart = new Cart();
@@ -55,12 +59,13 @@ public class UserController {
 
 		if(createUserRequest.getPassword().length() < 7 ||
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
-			// log.error("Error with user password. Cannot create user {}", createUserRequest.getUsername());
+			log.error("Create user POST request FAILED. Error with user password. ", createUserRequest.getUsername());
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
 
 		userRepository.save(user);
+		log.info("Create user POST request succeeded");
 		return ResponseEntity.ok(user);
 	}
 	
