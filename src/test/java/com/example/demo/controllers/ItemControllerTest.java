@@ -16,7 +16,6 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.junit.Assert.assertEquals;
 
-
 public class ItemControllerTest {
 
     private ItemController itemController;
@@ -52,7 +51,6 @@ public class ItemControllerTest {
         assertEquals(3, response.getBody().size());
     }
 
-
     @Test
     public void get_item_by_id_happy_path(){
         when(itemRepository.findById(0L)).thenReturn(java.util.Optional.ofNullable(item));
@@ -80,9 +78,4 @@ public class ItemControllerTest {
         ResponseEntity<List<Item>> response = itemController.getItemsByName(item.getName());
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
     }
-
-
-
-
-
 }

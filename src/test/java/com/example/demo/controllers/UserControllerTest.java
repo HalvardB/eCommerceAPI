@@ -28,7 +28,6 @@ public class UserControllerTest {
 
     private User defaultUser;
 
-
     @Before
     public void setUp() {
         userController = new UserController();
