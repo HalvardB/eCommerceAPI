@@ -28,6 +28,9 @@ public class SareetaApplication {
 		log.info("This is a message");
 		log.error("Error msg!!");
 
+		log.error("sample output", "foo", "bar");
+		log.error("sample output 2", "foo2", "bar2");
+
 		SpringApplication.run(SareetaApplication.class, args);
 	}
 

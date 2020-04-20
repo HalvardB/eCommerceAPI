@@ -1,0 +1,47 @@
+[2020-04-20T13:31:27,999][INFO ][c.e.d.SareetaApplication ] This is a message
+[2020-04-20T13:31:28,002][ERROR][c.e.d.SareetaApplication ] Error msg!!
+[2020-04-20T13:31:28,003][ERROR][c.e.d.SareetaApplication ] sample output
+[2020-04-20T13:31:28,004][ERROR][c.e.d.SareetaApplication ] sample output 2
+[2020-04-20T13:31:28,308][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T13:31:32,036][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T13:31:32,085][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T13:31:32,087][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T13:31:32,227][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T13:31:32,344][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T13:32:21,475][INFO ][c.e.d.SareetaApplication ] This is a message
+[2020-04-20T13:32:21,481][ERROR][c.e.d.SareetaApplication ] Error msg!!
+[2020-04-20T13:32:21,483][ERROR][c.e.d.SareetaApplication ] sample output
+[2020-04-20T13:32:21,483][ERROR][c.e.d.SareetaApplication ] sample output 2
+[2020-04-20T13:32:21,920][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T13:32:24,262][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T13:32:24,333][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T13:32:24,335][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T13:32:24,481][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T13:32:24,594][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T13:33:09,784][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T13:33:10,119][INFO ][c.e.d.c.UserController   ] Create user POST request succeeded
+[2020-04-20T13:36:19,665][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T13:36:19,809][WARN ][o.h.e.j.s.SqlExceptionHelper] SQL Error: 23505, SQLState: 23505
+[2020-04-20T13:36:19,810][ERROR][o.h.e.j.s.SqlExceptionHelper] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+[2020-04-20T13:36:54,470][INFO ][o.h.h.i.QueryTranslatorFactoryInitiator] HHH000397: Using ASTQueryTranslatorFactory
+[2020-04-20T13:36:54,627][ERROR][c.e.d.c.OrderController  ] Username not found exception.
+[2020-04-20T13:37:38,497][ERROR][c.e.d.c.OrderController  ] Username not found exception.
+[2020-04-20T13:37:54,250][INFO ][c.e.d.SareetaApplication ] This is a message
+[2020-04-20T13:37:54,267][ERROR][c.e.d.SareetaApplication ] Error msg!!
+[2020-04-20T13:37:54,272][ERROR][c.e.d.SareetaApplication ] sample output
+[2020-04-20T13:37:54,273][ERROR][c.e.d.SareetaApplication ] sample output 2
+[2020-04-20T13:37:54,912][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T13:37:58,843][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T13:37:58,940][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T13:37:58,960][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T13:37:59,085][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T13:37:59,211][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T13:38:13,307][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T13:38:13,551][INFO ][c.e.d.c.UserController   ] Create user POST request succeeded
