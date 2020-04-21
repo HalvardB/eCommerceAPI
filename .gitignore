@@ -1,1 +1,3 @@
 target
+${sys:es.logs.base_path}
+src/main/resources/log4j2.properties

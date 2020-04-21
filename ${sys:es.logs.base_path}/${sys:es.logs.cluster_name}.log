@@ -45,3 +45,105 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 [2020-04-20T13:37:59,211][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [2020-04-20T13:38:13,307][INFO ][c.e.d.c.UserController   ] Create user POST request
 [2020-04-20T13:38:13,551][INFO ][c.e.d.c.UserController   ] Create user POST request succeeded
+[2020-04-20T15:11:27,042][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T15:11:31,729][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T15:11:32,003][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T15:11:32,008][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T15:11:32,367][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T15:11:32,651][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T15:11:37,002][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T15:11:37,006][INFO ][c.e.d.c.UserController   ] Create user POST request succeeded
+[2020-04-20T15:11:37,008][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T15:11:37,009][ERROR][c.e.d.c.UserController   ] Create user POST request FAILED. Error with user password. 
+[2020-04-20T15:11:37,012][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T15:11:37,013][ERROR][c.e.d.c.UserController   ] Create user POST request FAILED. Error with user password. 
+[2020-04-20T15:11:37,217][INFO ][c.e.d.c.OrderController  ] Get orders for user request
+[2020-04-20T15:11:37,244][ERROR][c.e.d.c.OrderController  ] Get orders for user request FAILED. 
+[2020-04-20T15:11:37,247][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:11:37,248][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T15:11:37,249][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:11:37,250][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T15:11:37,250][INFO ][c.e.d.c.OrderController  ] Get orders for user request
+[2020-04-20T15:11:37,251][INFO ][c.e.d.c.OrderController  ] Get orders for user request succeeded.
+[2020-04-20T15:11:37,253][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:11:37,253][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T15:11:37,255][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:11:37,256][ERROR][c.e.d.c.OrderController  ] Order submit request FAILED. User not found. 
+[2020-04-20T15:13:20,276][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T15:13:23,424][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T15:13:23,516][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T15:13:23,518][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T15:13:23,698][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T15:13:23,878][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T15:13:27,617][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T15:13:27,623][INFO ][c.e.d.c.UserController   ] Create user POST request succeeded
+[2020-04-20T15:13:27,627][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T15:13:27,630][ERROR][c.e.d.c.UserController   ] Create user POST request FAILED. Error with user password. 
+[2020-04-20T15:13:27,638][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T15:13:27,641][ERROR][c.e.d.c.UserController   ] Create user POST request FAILED. Error with user password. 
+[2020-04-20T15:13:27,862][INFO ][c.e.d.c.OrderController  ] Get orders for user request
+[2020-04-20T15:13:27,867][ERROR][c.e.d.c.OrderController  ] Get orders for user request FAILED. 
+[2020-04-20T15:13:27,870][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:13:27,872][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T15:13:27,874][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:13:27,875][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T15:13:27,877][INFO ][c.e.d.c.OrderController  ] Get orders for user request
+[2020-04-20T15:13:27,881][INFO ][c.e.d.c.OrderController  ] Get orders for user request succeeded.
+[2020-04-20T15:13:27,883][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:13:27,884][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T15:13:27,892][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T15:13:27,896][ERROR][c.e.d.c.OrderController  ] Order submit request FAILED. User not found. 
+[2020-04-20T15:53:28,591][INFO ][c.e.d.SareetaApplication ] This is a message
+[2020-04-20T15:53:28,595][ERROR][c.e.d.SareetaApplication ] Error msg!!
+[2020-04-20T15:53:28,597][ERROR][c.e.d.SareetaApplication ] sample output
+[2020-04-20T15:53:28,598][ERROR][c.e.d.SareetaApplication ] sample output 2
+[2020-04-20T15:53:28,922][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T15:53:32,113][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T15:53:32,173][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T15:53:32,175][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T15:53:32,367][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T15:53:32,483][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T16:33:15,276][INFO ][c.e.d.SareetaApplication ] This is a message
+[2020-04-20T16:33:15,288][ERROR][c.e.d.SareetaApplication ] Error msg!!
+[2020-04-20T16:33:15,289][ERROR][c.e.d.SareetaApplication ] sample output
+[2020-04-20T16:33:15,290][ERROR][c.e.d.SareetaApplication ] sample output 2
+[2020-04-20T16:33:15,939][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T16:33:21,882][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T16:33:21,975][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T16:33:21,990][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T16:33:22,525][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T16:33:22,773][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T16:36:40,504][INFO ][o.h.v.i.u.Version        ] HV000001: Hibernate Validator 6.0.16.Final
+[2020-04-20T16:36:46,662][INFO ][o.h.j.i.u.LogHelper      ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-04-20T16:36:46,963][INFO ][o.h.Version              ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-04-20T16:36:46,968][INFO ][o.h.c.Environment        ] HHH000206: hibernate.properties not found
+[2020-04-20T16:36:47,614][INFO ][o.h.a.c.Version          ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-04-20T16:36:48,400][INFO ][o.h.d.Dialect            ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-04-20T16:36:56,812][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T16:36:56,887][INFO ][c.e.d.c.UserController   ] Create user POST request succeeded
+[2020-04-20T16:36:56,890][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T16:36:56,893][ERROR][c.e.d.c.UserController   ] Create user POST request FAILED. Error with user password. 
+[2020-04-20T16:36:56,900][INFO ][c.e.d.c.UserController   ] Create user POST request
+[2020-04-20T16:36:56,902][ERROR][c.e.d.c.UserController   ] Create user POST request FAILED. Error with user password. 
+[2020-04-20T16:36:57,232][INFO ][c.e.d.c.OrderController  ] Get orders for user request
+[2020-04-20T16:36:57,239][ERROR][c.e.d.c.OrderController  ] Get orders for user request FAILED. 
+[2020-04-20T16:36:57,240][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T16:36:57,242][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T16:36:57,243][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T16:36:57,245][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T16:36:57,245][INFO ][c.e.d.c.OrderController  ] Get orders for user request
+[2020-04-20T16:36:57,246][INFO ][c.e.d.c.OrderController  ] Get orders for user request succeeded.
+[2020-04-20T16:36:57,250][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T16:36:57,252][INFO ][c.e.d.c.OrderController  ] Oder submitted successfully
+[2020-04-20T16:36:57,295][INFO ][c.e.d.c.OrderController  ] Order submit request
+[2020-04-20T16:36:57,297][ERROR][c.e.d.c.OrderController  ] Order submit request FAILED. User not found. 
